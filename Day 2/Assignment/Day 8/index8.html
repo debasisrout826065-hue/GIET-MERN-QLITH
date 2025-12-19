@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    <main class="w-screen h-screen bg-yellow-300">
+        <nav class="w-full h-[60px]  shadow-[2px_2px_5px_black] flex">
+            <div class="w-[20%] bg-blue flex items-center justify-center ">
+                <p class="text-lg font-semibold">GIET <span class="text-orange-600">Ghangapatana</span></p>
+            </div>
+            <ul class="w-[70%] bg-green flex justify-around items-center">
+                <li class="hover:text-orange-600 cursor-pointer transition-all duration-150 ease delay-1">About</li>
+                <li class="hover:text-orange-600 cursor-pointer transition-all duration-150 ease delay-1">Service</li>
+                <li class="hover:text-orange-600 cursor-pointer transition-all duration-150 ease delay-1">Home</li>
+                <li class="hover:text-orange-600 cursor-pointer transition-all duration-150 ease delay-1">Contact</li>
+            </ul>
+            <div class="w-[10%] bg-orange items-center flex justify-center">
+                <button class="border-1 pt-1 pb-1 pl-2 pr-2 bg-green-500 rounded-tr-[40%] rounded-bl-[40%] text-white hover:cursor-pointer">Login</button>
+            </div>
+        </nav>
+        <section class="w-full h-[90%] flex">
+        <div class="w-[50%] bg-red-800 h-full flex flex-col justify-center items-center gap-10">
+            <h1 class="text-3xl font-extrabold text-white">GIET Ghangapatana</h1>
+            <p class="max-w-[300px] text-start text-gray-600">Lorem ipsum, dolor sit amet consectetur adipisicing elit. , molestiae accusamus numquam!</p>
+            <div class="flex gap-10">
+                <button class="pl-5 pr-5 pt-2 rounded bg-linear-to-l from-blue-500 to-red-500">Subscribe</button>
+                <button class="pl-5 pr-5 pt-2 rounded-lg bg-linear-to-r from-blue-500 to-red-500">Contact US</button>
+            </div>
+        </div>
+        <div class="w-[50%] bg-green-700 h-full">
+            <div class="right-logo">
+                <img src="" alt="">
+
+            </div>
+        </div>
+</section>
+    </main>
+</body>
+</html>
